@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{128A6A70-3849-44B1-95E0-B2BDBF344BB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{942FC0E9-9870-4A5A-A67F-3365AD80E664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aoc.2024", "Aoc.2024", "{8811C92C-826F-4664-B79E-7B4C1B063BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayOne", "DayOne", "{19B72988-9265-49CE-B225-5E330F254EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOne", "Aoc.2024\DayOne\DayOne.csproj", "{66D83D44-E5CB-4423-8A15-19170D224DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2024", "2024", "{64CDA4F4-F837-444A-A98B-805479C4EE0C}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\Assets\2024\day_1_1.txt = Shared\Assets\2024\day_1_1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D83D44-E5CB-4423-8A15-19170D224DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D83D44-E5CB-4423-8A15-19170D224DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D83D44-E5CB-4423-8A15-19170D224DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D83D44-E5CB-4423-8A15-19170D224DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{942FC0E9-9870-4A5A-A67F-3365AD80E664} = {128A6A70-3849-44B1-95E0-B2BDBF344BB3}
+		{19B72988-9265-49CE-B225-5E330F254EB3} = {8811C92C-826F-4664-B79E-7B4C1B063BFE}
+		{66D83D44-E5CB-4423-8A15-19170D224DEF} = {19B72988-9265-49CE-B225-5E330F254EB3}
+		{64CDA4F4-F837-444A-A98B-805479C4EE0C} = {942FC0E9-9870-4A5A-A67F-3365AD80E664}
+	EndGlobalSection
+EndGlobal
